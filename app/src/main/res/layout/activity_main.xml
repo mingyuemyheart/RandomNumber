@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:id="@+id/llContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal|center"
+        android:orientation="vertical">
+
+        <com.dk.view.patheffect.PathTextView
+            android:id="@+id/pathTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/white"
+            android:background="@drawable/shawn_selector_login"
+            android:text="start"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+    <com.dk.view.patheffect.PathTextView
+        android:id="@+id/pathTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="50dp"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tvToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:lineSpacingExtra="10dp"
+        android:text="抽奖结束\n华风创新，所向披靡\n祝各位一世繁华"
+        android:textColor="@color/white"
+        android:textSize="@dimen/level_1"
+        android:visibility="gone"/>
+
+    <tyrantgit.widget.HeartLayout
+        android:id="@+id/heart_layout"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

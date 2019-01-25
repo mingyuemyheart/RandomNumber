@@ -1,0 +1,10 @@
+<resources>
+
+    <dimen name="level_1">20sp</dimen>
+    <dimen name="level_2">18sp</dimen>
+    <dimen name="level_3">16sp</dimen>
+    <dimen name="level_4">14sp</dimen>
+    <dimen name="level_5">12sp</dimen>
+    <dimen name="level_6">10sp</dimen>
+
+</resources>
